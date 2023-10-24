@@ -2,7 +2,7 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/mateocisneros/VisualStudio/Segundo_Semestre/Primer_Progreso/examen_practico_1p/output/examen_practico'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _suma, symObjAddr: 0x0, symBinAddr: 0x100003E40, symSize: 0x50 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _suma, symObjAddr: 0x0, symBinAddr: 0x100003E40, symSize: 0x50 }
-  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x50, symBinAddr: 0x100003E90, symSize: 0x87 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _suma, symObjAddr: 0x0, symBinAddr: 0x100003E70, symSize: 0x50 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _suma, symObjAddr: 0x0, symBinAddr: 0x100003E70, symSize: 0x50 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x50, symBinAddr: 0x100003EC0, symSize: 0x87 }
 ...
