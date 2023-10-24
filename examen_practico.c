@@ -33,11 +33,15 @@ int main()
     {
         suma += n;
         //Leemos el siguente numero
-        printf("Ingrese un numero entero(Ingrese 0 para termiar) -> ");
+        printf("Ingrese un numero entero(Ingrese 0 para terminar) -> ");
         scanf("%d", &n);
     }
     //Se imprime el resultado
     printf("La suma es -> %d", suma);
     
+    //Se realizo la prueba con 1+2+3 = 6
+    //Se realizo la prueba con 2+5+5 = 12
+    //Se realizo prueba con 1+2+3+4+5+6+7+8+9=45
+
     return 0;
 }
