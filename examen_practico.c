@@ -28,6 +28,16 @@ int main()
     printf("Ingrese un numero entero(Ingrese 0 para terminar) -> ");
     scanf("%d", &n);
 
+    //Mientras el numero no sea 0, seguimos leyendo
+    while (n != 0)
+    {
+        suma += n;
+        //Leemos el siguente numero
+        printf("Ingrese un numero entero(Ingrese 0 para termiar) -> ");
+        scanf("%d", &n);
+    }
+    //Se imprime el resultado
+    printf("La suma es -> %d", suma);
     
     return 0;
 }
